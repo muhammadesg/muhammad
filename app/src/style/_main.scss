@@ -1,0 +1,17 @@
+.main {
+    position: absolute;
+    top: 90px;
+    left: 290px;
+    right: 30px;
+
+    @media (max-width:1290px) {
+        top: 90px;
+        left: 80px;
+        right: 30px;
+    }
+    @media (max-width:770px) {
+        top: 125px;
+        left: 15px;
+        right: 15px;
+    }
+}

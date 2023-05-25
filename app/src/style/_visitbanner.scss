@@ -1,0 +1,138 @@
+.visitbanner {
+    padding-top: 30px;
+    .vis_banner {
+        height: 460px;
+        background-color: 
+        #191C24;
+        padding: 20px;
+        @media (max-width:1300px) {
+            height: auto;
+        }
+        @media (max-width:980px) {
+            height: auto;
+        }
+        @media (max-width:405px) {
+            padding: 10px;
+        }
+
+
+        p {
+            font-size: 20px;
+            color: #fff;
+            @media (max-width:560px) {
+                font-size: 15px;
+            }
+        }
+        
+        .vsbanners {
+            display: flex;
+            align-items: center;
+            padding-top: 40px;
+            gap: 130px;
+            @media (max-width:1360px) {
+                gap: 100px;
+            }
+            @media (max-width:1320px) {
+                gap: 80px;
+            }
+            @media (max-width:1090px) {
+                padding-top: 0px;
+            }
+            @media (max-width:980px) {
+                flex-direction: column;
+                gap: 0px;
+                row-gap: 50px;
+                padding-top: 10px;
+            }
+            @media (max-width:405px) {
+                row-gap: 0px;
+            }
+
+            
+            .vsleft {
+                @media (max-width:980px) {
+                    width: 100%;
+                }
+                .boxes9 {
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                @media (max-width:1300px) {
+                    width: 100%;
+                }
+                @media (max-width:360px) {
+                    padding: 15px 0px 15px 0px;
+                }
+                
+                .vscountry {
+                    display: flex;
+                    align-items: center;
+                    gap: 25px;
+                    @media (max-width:380px) {
+                        gap: 10px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        color: #6C7293;
+                        white-space: nowrap;
+                        @media (max-width:560px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .vsproten {
+                    display: flex;
+                    align-items: center;
+                    gap: 35px;
+                    padding-left: 50px;
+                    @media (max-width:380px) {
+                        gap: 20px;
+                    }
+                    
+                    p {
+                        font-size: 15px;
+                        color: #6C7293;
+                        @media (max-width:560px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                }
+            }
+
+            .vsright {
+                .world {
+                    width: auto;
+                    height: auto;
+
+                    @media (max-width:1090px) {
+                        width: 400px;
+                        height: 400px;
+                    }
+                    @media (max-width:980px) {
+                        width: auto;
+                        height: auto;
+                    }
+                    @media (max-width:560px) {
+                        width: 400px;
+                        height: 400px;
+                    }
+                    @media (max-width:405px) {
+                        width: 300px;
+                        height: 300px;
+                    }
+                    @media (max-width:350px) {
+                        width: 290px;
+                        height: 290px;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.banner {
+
+    .freebanner {
+        height: 90px;
+        padding: 0px 30px;
+        background: linear-gradient(270deg, #D41459 2.27%, #911A6C 97.73%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+
+        @media (max-width:485px) {
+            padding: 0px 20px;
+        }
+        @media (max-width:465px) {
+            padding: 0px 5px;
+        }
+
+        img {
+            width: auto;
+            height: auto;
+
+            @media (max-width:510px) {
+                height: 60px;
+            }
+        }
+
+        .days {
+            width: 650px;
+            color: #fff;
+
+            @media (max-width:960px) {
+                width: auto;
+            }
+
+            h1 {
+                font-size: 18px;
+
+                @media (max-width:580px) {
+                    font-size: 15px;
+                }
+            }
+
+            p {
+                padding-top: 10px;
+                font-size: 12px;
+                
+                @media (max-width:960px) {
+                    display: none;
+                }
+            }
+        }
+
+        .trailbtn {
+            width: 110px;
+            height: 40px;
+
+            @media (max-width:580px) {
+                width: 90px;
+            }
+
+            button {
+                font-size: 12px;
+                border-radius: 30px;
+                color: #fff;
+                width: 100%;
+                height: 100%;
+                border: 1px solid #fff;
+                background: none;
+                cursor: pointer;
+                transition: .3s;
+
+                @media (max-width: 1050px) {
+                    font-size: 10px;
+                }
+            }
+
+            button:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
